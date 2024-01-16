@@ -1,0 +1,273 @@
+/* work sans font form google font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+/* shared style */
+.btn-primary {
+  border-radius: 8px;
+  color: #fff;
+  background: #ff5400;
+  padding: 14px 35px;
+  font-size: 20px;
+  border: 0;
+}
+
+.tour-title {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+/* navber Style */
+header {
+  background: #fff;
+  padding: 50px 135px 135px;
+}
+.nav-section {
+  max-width: 1440px;
+  display: flex;
+  background: #fff;
+  margin: 0 auto;
+  /* border: 2px solid blue; */
+}
+.nav-container {
+  /* border: 2px solid red; */
+  display: flex;
+  /* border: 2px solid tomato; */
+  width: 50%;
+  align-items: center;
+  min-height: 40px;
+}
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+}
+.item-container a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #424247;
+}
+.item-container,
+.home-spceial {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff5400;
+}
+.nav-container img {
+  width: 90px;
+}
+.nav-container h3 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #131318;
+}
+.special {
+  font-size: 36px;
+  font-weight: 800;
+  color: #ff5400;
+}
+/* banner sector */
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.image-container {
+  width: 117rem;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 1.6rem;
+}
+
+.explore-travel-heading {
+  position: absolute;
+  top: 300px;
+  left: 800px;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.selection-form {
+  position: absolute;
+  top: 600px;
+  left: 800px;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+}
+.selection-form {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.selectin-process {
+  width: 174px;
+  height: 52px;
+  font-size: 16px;
+  text-align: center;
+}
+.paragraph-ban {
+  position: absolute;
+  top: 420px;
+  left: 800px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* popurlar tour */
+.popular-tour {
+  display: flex;
+  margin-top: 130px;
+  gap: 100px;
+}
+.tour-content {
+}
+.text-light-gray {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.unordered-list {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* choose destination  */
+
+img {
+  margin: 0;
+  padding: 24px;
+}
+
+.row,
+.row-1,
+.row-2,
+.row-3 {
+  gap: 24px;
+  padding: 24;
+  justify-content: center;
+  align-items: center;
+}
+.row-1 {
+  display: flex;
+}
+.row-2 {
+  display: flex;
+}
+.row-3 {
+  display: flex;
+}
+
+/* facts choose us*/
+.holidays-tour {
+  display: flex;
+}
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.facts-card-container .card {
+  border-radius: 16px;
+  border: 1px solid border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  text-align: center;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.facts-card-container,
+.card-title {
+  font-weight: 800;
+  font-size: 16px;
+  color: #5a5a5d;
+}
+
+.facts-card-container .card-stats {
+  font-size: 24px;
+
+  color: #131318;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* santorini  */
+
+.tour_id {
+  text-align: center;
+  justify-content: center;
+}
+.santorini-tour {
+  text-align: center;
+  justify-content: center;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+.perfect-place {
+  display: flex;
+  margin-bottom: 30px;
+}
+.hero-t {
+  box-sizing: border-box;
+  padding: 11rem 6rem 10.9rem 6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(19, 19, 24, 0.05);
+}
+.lorem {
+  margin: 0rem 54.733rem 1.4rem 54rem;
+  display: flex;
+  align-items: flex-start;
+}
+.Travel-span {
+  color: #ff5400;
+}
+.hero-travel1 {
+  display: flex;
+  font-size: 32px;
+}
+
+/* newsleter start */
+.registration-news{
+  color: #131318;
+font-size: 24px;
+font-weight: 800;
+text-align: center;
+/* width: 393px;
+height: 52px; */
+border-radius: 16px;
+border: 1px solid #FF5400;
+}
+.update-traveler{
+  display: flex;
+  justify-content: center;
+}
+.sob-buttor{
+  border-radius: 8px;
+  background: #FF5400;
+  color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+width: 300px;
+height: 52px;
+}
+
