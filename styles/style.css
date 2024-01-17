@@ -271,3 +271,31 @@ width: 300px;
 height: 52px;
 }
 
+/* mobile decices */
+@media screen and (max-width: 600px) {
+  header {
+    padding: 20px;
+  }
+  .nav-section,
+  .nav-container,
+  .item-container a,
+  .item-container,
+  .selection-form,
+  .popular-tour,
+  .facts-card-container,
+  .perfect-place,
+  .update-traveler
+   {
+    flex-direction: column;
+  }
+  .image-container img {
+    width: 90px;
+    margin-left: 0;
+  }
+  .row,
+  .row-1,
+  .row-2,
+  .row-3{
+      flex-direction: column;
+  }
+  
